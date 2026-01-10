@@ -2,6 +2,8 @@
 
 #include "find_middle.h"
 
+#include <stdio.h>
+
 // D (wavefront): the farthest x for each path after D edits
 // V: the array we use to store D, value x indexed by diagonals k
 // k (diagonal): well... its a diagonal
@@ -9,8 +11,11 @@
 
 // lemmas reference the original paper, proof wont be shown here
 
-struct snake find_middle(const char *a_str, int N, const char *b_str, int M) {
-  int MAX = N + M;
+snake find_middle(const char *a_str, const char *b_str, int N_start,
+                  int M_start, int N, int M) {
+
+  int MAX = (N - N_start) + (M - M_start);
+  int delta_r = (N - N_start) - (M - M_start);
   int delta = N - M;
 
   // u, v are x, y in reverse direction
@@ -28,7 +33,7 @@ struct snake find_middle(const char *a_str, int N, const char *b_str, int M) {
 
       // initial case
       if (D == 0) {
-        x = 0;
+        x = N_start;
         // path can only come from above (deletion)
       } else if (k == -D) {
         x = V[k_adj + 1];
@@ -64,16 +69,18 @@ struct snake find_middle(const char *a_str, int N, const char *b_str, int M) {
 
       V[k_adj] = x;
 
-      // first check if delta is odd because:
-      // lemma 1: the optimal path is odd or even as delta is odd or even
+      // printf("from f: %i, %i\n", x, y);
+
+      // first check if delta_r is odd because:
+      // lemma 1: the optimal path is odd or even as delta_r is odd or even
       // landing on a middle path in the forward path means the optimal path
       // has odd length vice versa for reverse path
-      if (delta % 2 == 1
-          // reverse path will have only visited diagonals k - delta in
+      if (delta_r % 2 == 1
+          // reverse path will have only visited diagonals k - delta_r in
           // [-(D-1), (D-1)] we decrement from wavefront D because reverse path
           // is only at the previous iteration of D
-          && k - delta >= -D + 1 && k - delta <= D - 1) {
-        if (V_r[k_adj - delta] <= x) {
+          && k - delta_r >= -D + 1 && k - delta_r <= D - 1) {
+        if (V_r[k_adj - delta_r] <= x) {
           free(V);
           free(V_r);
 
@@ -90,7 +97,7 @@ struct snake find_middle(const char *a_str, int N, const char *b_str, int M) {
     }
 
     // reverse path, very similar to forward path, but we need to adjust for
-    // the reverse to forward starting diagonal with delta
+    // the reverse to forward starting diagonal with delta_r
     for (int k = -D; k <= D; k += 2) {
       int k_adj = k + MAX;
 
@@ -114,12 +121,12 @@ struct snake find_middle(const char *a_str, int N, const char *b_str, int M) {
 
       v = u - k - delta;
 
-      int start_x = u;
-      int start_y = v;
+      int start_u = u;
+      int start_v = v;
 
-      while (u > 0 && v > 0 && a_str[u - 1] == b_str[v - 1]) {
-        snake.u = start_x;
-        snake.v = start_y;
+      while (u > N_start && v > M_start && a_str[u - 1] == b_str[v - 1]) {
+        snake.u = start_u;
+        snake.v = start_v;
 
         u--;
         v--;
@@ -130,8 +137,10 @@ struct snake find_middle(const char *a_str, int N, const char *b_str, int M) {
 
       V_r[k_adj] = u;
 
-      if (delta % 2 == 0 && k + delta >= -D && k + delta <= D) {
-        if (V[k_adj + delta] >= u) {
+      // printf("from r: %i, %i\n", u, v);
+
+      if (delta_r % 2 == 0 && k + delta_r >= -D && k + delta_r <= D) {
+        if (V[k_adj + delta_r] >= u) {
           free(V);
           free(V_r);
 

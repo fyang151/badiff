@@ -5,4 +5,5 @@ typedef struct snake {
   int v;
 } snake;
 
-snake find_middle(const char *a_str, int N, const char *b_str, int M);
+snake find_middle(const char *a_str, const char *b_str, int N_start,
+                  int M_start, int N, int M);
