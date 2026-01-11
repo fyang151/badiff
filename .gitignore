@@ -1,3 +1,4 @@
 build/
+build_wasm/
 .cache
 compile_commands.json
