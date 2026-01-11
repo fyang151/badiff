@@ -1,8 +1,11 @@
-main: src/main.c src/find_middle.c src/ses.c
-	gcc -Wall src/main.c src/find_middle.c src/ses.c -o bin/main
+build:
+	cmake -S . -B build
 
-run: main
-	./bin/main
-	
+run: build
+	cmake --build build
+	./build/diff
+
 clean:
-	rm -f bin/main
+	rm -rf build
+
+restart: clean build
