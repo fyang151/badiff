@@ -1,21 +1,13 @@
 #include "cJSON.h"
 #include "ses.h"
-#include "stdio.h"
-#include "stdlib.h"
 
-int str_length(const char *str) {
-  int len = 0;
-  while (str[len] != '\0') {
-    len++;
-  }
-  return len;
-}
-
-void diff(char *A, char *B) {
+char *diff(const char *A, const char *B, int N, int M) {
   cJSON *output = cJSON_CreateArray();
-  ses(A, B, 0, 0, str_length(A), str_length(B), output);
+  ses(A, B, 0, 0, N, M, output);
   char *s = cJSON_Print(output);
-  puts(s);
-  free(s);
-  free(output);
+
+  char *json = cJSON_PrintUnformatted(output);
+
+  cJSON_Delete(output);
+  return json; // return heap-allocated string
 }

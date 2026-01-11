@@ -1,0 +1,26 @@
+vendor/cjson/tests/CMakeFiles/unity.dir/unity/src/unity.c.o: \
+  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity.c \
+  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity.h \
+  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity_internals.h \
+  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/../examples/unity_config.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/setjmp.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/setjmp.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/stdint.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/limits.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/stddef.h \
+  /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_header_macro.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_ptrdiff_t.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_size_t.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_wchar_t.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_null.h \
+  /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_offsetof.h
