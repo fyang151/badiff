@@ -1,477 +1,477 @@
 The target system is: Emscripten - 1 - x86
 The host system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
 Performing C SOURCE FILE Test FLAG_SUPPORTED_stdc89 succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bceae/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_bceae.dir/build.make CMakeFiles/cmTC_bceae.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bceae.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_stdc89  -std=c89 -MD -MT CMakeFiles/cmTC_bceae.dir/src.c.o -MF CMakeFiles/cmTC_bceae.dir/src.c.o.d -o CMakeFiles/cmTC_bceae.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_bceae.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bceae.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_bceae.dir/objects1.rsp -o cmTC_bceae.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_329ba/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_329ba.dir/build.make CMakeFiles/cmTC_329ba.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_329ba.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_stdc89  -std=c89 -MD -MT CMakeFiles/cmTC_329ba.dir/src.c.o -MF CMakeFiles/cmTC_329ba.dir/src.c.o.d -o CMakeFiles/cmTC_329ba.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_329ba.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_329ba.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_329ba.dir/objects1.rsp -o cmTC_329ba.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_pedantic succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eff3e/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_eff3e.dir/build.make CMakeFiles/cmTC_eff3e.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eff3e.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -MD -MT CMakeFiles/cmTC_eff3e.dir/src.c.o -MF CMakeFiles/cmTC_eff3e.dir/src.c.o.d -o CMakeFiles/cmTC_eff3e.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_eff3e.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff3e.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89  @CMakeFiles/cmTC_eff3e.dir/objects1.rsp -o cmTC_eff3e.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ccae/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_8ccae.dir/build.make CMakeFiles/cmTC_8ccae.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ccae.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -MD -MT CMakeFiles/cmTC_8ccae.dir/src.c.o -MF CMakeFiles/cmTC_8ccae.dir/src.c.o.d -o CMakeFiles/cmTC_8ccae.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8ccae.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ccae.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89  @CMakeFiles/cmTC_8ccae.dir/objects1.rsp -o cmTC_8ccae.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wall succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0506b/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_0506b.dir/build.make CMakeFiles/cmTC_0506b.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0506b.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -MD -MT CMakeFiles/cmTC_0506b.dir/src.c.o -MF CMakeFiles/cmTC_0506b.dir/src.c.o.d -o CMakeFiles/cmTC_0506b.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_0506b.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0506b.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic  @CMakeFiles/cmTC_0506b.dir/objects1.rsp -o cmTC_0506b.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb29f/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_fb29f.dir/build.make CMakeFiles/cmTC_fb29f.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb29f.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -MD -MT CMakeFiles/cmTC_fb29f.dir/src.c.o -MF CMakeFiles/cmTC_fb29f.dir/src.c.o.d -o CMakeFiles/cmTC_fb29f.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fb29f.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb29f.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic  @CMakeFiles/cmTC_fb29f.dir/objects1.rsp -o cmTC_fb29f.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wextra succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c7262/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_c7262.dir/build.make CMakeFiles/cmTC_c7262.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c7262.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -MD -MT CMakeFiles/cmTC_c7262.dir/src.c.o -MF CMakeFiles/cmTC_c7262.dir/src.c.o.d -o CMakeFiles/cmTC_c7262.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_c7262.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7262.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall  @CMakeFiles/cmTC_c7262.dir/objects1.rsp -o cmTC_c7262.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df092/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_df092.dir/build.make CMakeFiles/cmTC_df092.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df092.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -MD -MT CMakeFiles/cmTC_df092.dir/src.c.o -MF CMakeFiles/cmTC_df092.dir/src.c.o.d -o CMakeFiles/cmTC_df092.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df092.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df092.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall  @CMakeFiles/cmTC_df092.dir/objects1.rsp -o cmTC_df092.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Werror succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_71b46/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_71b46.dir/build.make CMakeFiles/cmTC_71b46.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71b46.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -MD -MT CMakeFiles/cmTC_71b46.dir/src.c.o -MF CMakeFiles/cmTC_71b46.dir/src.c.o.d -o CMakeFiles/cmTC_71b46.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_71b46.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71b46.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra  @CMakeFiles/cmTC_71b46.dir/objects1.rsp -o cmTC_71b46.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36441/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_36441.dir/build.make CMakeFiles/cmTC_36441.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36441.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -MD -MT CMakeFiles/cmTC_36441.dir/src.c.o -MF CMakeFiles/cmTC_36441.dir/src.c.o.d -o CMakeFiles/cmTC_36441.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_36441.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36441.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra  @CMakeFiles/cmTC_36441.dir/objects1.rsp -o cmTC_36441.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictprototypes succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d678a/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_d678a.dir/build.make CMakeFiles/cmTC_d678a.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d678a.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -MD -MT CMakeFiles/cmTC_d678a.dir/src.c.o -MF CMakeFiles/cmTC_d678a.dir/src.c.o.d -o CMakeFiles/cmTC_d678a.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d678a.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d678a.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror  @CMakeFiles/cmTC_d678a.dir/objects1.rsp -o cmTC_d678a.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b58a9/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b58a9.dir/build.make CMakeFiles/cmTC_b58a9.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b58a9.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -MD -MT CMakeFiles/cmTC_b58a9.dir/src.c.o -MF CMakeFiles/cmTC_b58a9.dir/src.c.o.d -o CMakeFiles/cmTC_b58a9.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b58a9.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b58a9.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror  @CMakeFiles/cmTC_b58a9.dir/objects1.rsp -o cmTC_b58a9.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wwritestrings succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63493/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_63493.dir/build.make CMakeFiles/cmTC_63493.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63493.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -MD -MT CMakeFiles/cmTC_63493.dir/src.c.o -MF CMakeFiles/cmTC_63493.dir/src.c.o.d -o CMakeFiles/cmTC_63493.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_63493.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63493.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  @CMakeFiles/cmTC_63493.dir/objects1.rsp -o cmTC_63493.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d86cb/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d86cb.dir/build.make CMakeFiles/cmTC_d86cb.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d86cb.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -MD -MT CMakeFiles/cmTC_d86cb.dir/src.c.o -MF CMakeFiles/cmTC_d86cb.dir/src.c.o.d -o CMakeFiles/cmTC_d86cb.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d86cb.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d86cb.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  @CMakeFiles/cmTC_d86cb.dir/objects1.rsp -o cmTC_d86cb.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wshadow succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3acc8/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_3acc8.dir/build.make CMakeFiles/cmTC_3acc8.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3acc8.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -MD -MT CMakeFiles/cmTC_3acc8.dir/src.c.o -MF CMakeFiles/cmTC_3acc8.dir/src.c.o.d -o CMakeFiles/cmTC_3acc8.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_3acc8.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3acc8.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  @CMakeFiles/cmTC_3acc8.dir/objects1.rsp -o cmTC_3acc8.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5686/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b5686.dir/build.make CMakeFiles/cmTC_b5686.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5686.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -MD -MT CMakeFiles/cmTC_b5686.dir/src.c.o -MF CMakeFiles/cmTC_b5686.dir/src.c.o.d -o CMakeFiles/cmTC_b5686.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b5686.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5686.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  @CMakeFiles/cmTC_b5686.dir/objects1.rsp -o cmTC_b5686.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Winitself succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c175b/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_c175b.dir/build.make CMakeFiles/cmTC_c175b.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c175b.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -MD -MT CMakeFiles/cmTC_c175b.dir/src.c.o -MF CMakeFiles/cmTC_c175b.dir/src.c.o.d -o CMakeFiles/cmTC_c175b.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_c175b.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c175b.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  @CMakeFiles/cmTC_c175b.dir/objects1.rsp -o cmTC_c175b.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46bf8/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_46bf8.dir/build.make CMakeFiles/cmTC_46bf8.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46bf8.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -MD -MT CMakeFiles/cmTC_46bf8.dir/src.c.o -MF CMakeFiles/cmTC_46bf8.dir/src.c.o.d -o CMakeFiles/cmTC_46bf8.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_46bf8.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bf8.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  @CMakeFiles/cmTC_46bf8.dir/objects1.rsp -o cmTC_46bf8.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastalign succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf7d8/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_bf7d8.dir/build.make CMakeFiles/cmTC_bf7d8.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf7d8.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -MD -MT CMakeFiles/cmTC_bf7d8.dir/src.c.o -MF CMakeFiles/cmTC_bf7d8.dir/src.c.o.d -o CMakeFiles/cmTC_bf7d8.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_bf7d8.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7d8.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  @CMakeFiles/cmTC_bf7d8.dir/objects1.rsp -o cmTC_bf7d8.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8753/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a8753.dir/build.make CMakeFiles/cmTC_a8753.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8753.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -MD -MT CMakeFiles/cmTC_a8753.dir/src.c.o -MF CMakeFiles/cmTC_a8753.dir/src.c.o.d -o CMakeFiles/cmTC_a8753.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a8753.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8753.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  @CMakeFiles/cmTC_a8753.dir/objects1.rsp -o cmTC_a8753.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformat2 succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99485/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_99485.dir/build.make CMakeFiles/cmTC_99485.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99485.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -MD -MT CMakeFiles/cmTC_99485.dir/src.c.o -MF CMakeFiles/cmTC_99485.dir/src.c.o.d -o CMakeFiles/cmTC_99485.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_99485.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99485.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  @CMakeFiles/cmTC_99485.dir/objects1.rsp -o cmTC_99485.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15cb4/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_15cb4.dir/build.make CMakeFiles/cmTC_15cb4.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15cb4.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -MD -MT CMakeFiles/cmTC_15cb4.dir/src.c.o -MF CMakeFiles/cmTC_15cb4.dir/src.c.o.d -o CMakeFiles/cmTC_15cb4.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15cb4.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15cb4.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  @CMakeFiles/cmTC_15cb4.dir/objects1.rsp -o cmTC_15cb4.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingprototypes succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a711/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_4a711.dir/build.make CMakeFiles/cmTC_4a711.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4a711.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -MD -MT CMakeFiles/cmTC_4a711.dir/src.c.o -MF CMakeFiles/cmTC_4a711.dir/src.c.o.d -o CMakeFiles/cmTC_4a711.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_4a711.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a711.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  @CMakeFiles/cmTC_4a711.dir/objects1.rsp -o cmTC_4a711.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f00ae/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f00ae.dir/build.make CMakeFiles/cmTC_f00ae.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f00ae.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -MD -MT CMakeFiles/cmTC_f00ae.dir/src.c.o -MF CMakeFiles/cmTC_f00ae.dir/src.c.o.d -o CMakeFiles/cmTC_f00ae.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f00ae.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f00ae.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  @CMakeFiles/cmTC_f00ae.dir/objects1.rsp -o cmTC_f00ae.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictoverflow2 succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a073/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_3a073.dir/build.make CMakeFiles/cmTC_3a073.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a073.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -MD -MT CMakeFiles/cmTC_3a073.dir/src.c.o -MF CMakeFiles/cmTC_3a073.dir/src.c.o.d -o CMakeFiles/cmTC_3a073.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_3a073.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a073.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  @CMakeFiles/cmTC_3a073.dir/objects1.rsp -o cmTC_3a073.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ae60/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_7ae60.dir/build.make CMakeFiles/cmTC_7ae60.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ae60.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -MD -MT CMakeFiles/cmTC_7ae60.dir/src.c.o -MF CMakeFiles/cmTC_7ae60.dir/src.c.o.d -o CMakeFiles/cmTC_7ae60.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ae60.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae60.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  @CMakeFiles/cmTC_7ae60.dir/objects1.rsp -o cmTC_7ae60.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastqual succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_adfcb/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_adfcb.dir/build.make CMakeFiles/cmTC_adfcb.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_adfcb.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -MD -MT CMakeFiles/cmTC_adfcb.dir/src.c.o -MF CMakeFiles/cmTC_adfcb.dir/src.c.o.d -o CMakeFiles/cmTC_adfcb.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_adfcb.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adfcb.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  @CMakeFiles/cmTC_adfcb.dir/objects1.rsp -o cmTC_adfcb.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e13f/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_0e13f.dir/build.make CMakeFiles/cmTC_0e13f.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e13f.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -MD -MT CMakeFiles/cmTC_0e13f.dir/src.c.o -MF CMakeFiles/cmTC_0e13f.dir/src.c.o.d -o CMakeFiles/cmTC_0e13f.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0e13f.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e13f.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  @CMakeFiles/cmTC_0e13f.dir/objects1.rsp -o cmTC_0e13f.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wundef succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cef0/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_1cef0.dir/build.make CMakeFiles/cmTC_1cef0.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1cef0.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -MD -MT CMakeFiles/cmTC_1cef0.dir/src.c.o -MF CMakeFiles/cmTC_1cef0.dir/src.c.o.d -o CMakeFiles/cmTC_1cef0.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_1cef0.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cef0.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  @CMakeFiles/cmTC_1cef0.dir/objects1.rsp -o cmTC_1cef0.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a78e1/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a78e1.dir/build.make CMakeFiles/cmTC_a78e1.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a78e1.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -MD -MT CMakeFiles/cmTC_a78e1.dir/src.c.o -MF CMakeFiles/cmTC_a78e1.dir/src.c.o.d -o CMakeFiles/cmTC_a78e1.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a78e1.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a78e1.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  @CMakeFiles/cmTC_a78e1.dir/objects1.rsp -o cmTC_a78e1.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchdefault succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5dd64/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_5dd64.dir/build.make CMakeFiles/cmTC_5dd64.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5dd64.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -MD -MT CMakeFiles/cmTC_5dd64.dir/src.c.o -MF CMakeFiles/cmTC_5dd64.dir/src.c.o.d -o CMakeFiles/cmTC_5dd64.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_5dd64.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dd64.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  @CMakeFiles/cmTC_5dd64.dir/objects1.rsp -o cmTC_5dd64.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f66d/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4f66d.dir/build.make CMakeFiles/cmTC_4f66d.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f66d.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -MD -MT CMakeFiles/cmTC_4f66d.dir/src.c.o -MF CMakeFiles/cmTC_4f66d.dir/src.c.o.d -o CMakeFiles/cmTC_4f66d.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f66d.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f66d.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  @CMakeFiles/cmTC_4f66d.dir/objects1.rsp -o cmTC_4f66d.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wconversion succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ab62/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_5ab62.dir/build.make CMakeFiles/cmTC_5ab62.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5ab62.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -MD -MT CMakeFiles/cmTC_5ab62.dir/src.c.o -MF CMakeFiles/cmTC_5ab62.dir/src.c.o.d -o CMakeFiles/cmTC_5ab62.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_5ab62.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ab62.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  @CMakeFiles/cmTC_5ab62.dir/objects1.rsp -o cmTC_5ab62.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7105/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b7105.dir/build.make CMakeFiles/cmTC_b7105.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7105.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -MD -MT CMakeFiles/cmTC_b7105.dir/src.c.o -MF CMakeFiles/cmTC_b7105.dir/src.c.o.d -o CMakeFiles/cmTC_b7105.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b7105.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7105.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  @CMakeFiles/cmTC_b7105.dir/objects1.rsp -o cmTC_b7105.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wccompat succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8bdf1/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_8bdf1.dir/build.make CMakeFiles/cmTC_8bdf1.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8bdf1.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -MD -MT CMakeFiles/cmTC_8bdf1.dir/src.c.o -MF CMakeFiles/cmTC_8bdf1.dir/src.c.o.d -o CMakeFiles/cmTC_8bdf1.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_8bdf1.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bdf1.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  @CMakeFiles/cmTC_8bdf1.dir/objects1.rsp -o cmTC_8bdf1.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1360e/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1360e.dir/build.make CMakeFiles/cmTC_1360e.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1360e.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -MD -MT CMakeFiles/cmTC_1360e.dir/src.c.o -MF CMakeFiles/cmTC_1360e.dir/src.c.o.d -o CMakeFiles/cmTC_1360e.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1360e.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1360e.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  @CMakeFiles/cmTC_1360e.dir/objects1.rsp -o cmTC_1360e.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_fstackprotectorstrong succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94340/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_94340.dir/build.make CMakeFiles/cmTC_94340.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94340.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -MD -MT CMakeFiles/cmTC_94340.dir/src.c.o -MF CMakeFiles/cmTC_94340.dir/src.c.o.d -o CMakeFiles/cmTC_94340.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_94340.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94340.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  @CMakeFiles/cmTC_94340.dir/objects1.rsp -o cmTC_94340.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc950/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_cc950.dir/build.make CMakeFiles/cmTC_cc950.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc950.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -MD -MT CMakeFiles/cmTC_cc950.dir/src.c.o -MF CMakeFiles/cmTC_cc950.dir/src.c.o.d -o CMakeFiles/cmTC_cc950.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cc950.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc950.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  @CMakeFiles/cmTC_cc950.dir/objects1.rsp -o cmTC_cc950.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b61b/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_8b61b.dir/build.make CMakeFiles/cmTC_8b61b.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8b61b.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -MD -MT CMakeFiles/cmTC_8b61b.dir/src.c.o -MF CMakeFiles/cmTC_8b61b.dir/src.c.o.d -o CMakeFiles/cmTC_8b61b.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_8b61b.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b61b.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  @CMakeFiles/cmTC_8b61b.dir/objects1.rsp -o cmTC_8b61b.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_322ea/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_322ea.dir/build.make CMakeFiles/cmTC_322ea.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_322ea.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -MD -MT CMakeFiles/cmTC_322ea.dir/src.c.o -MF CMakeFiles/cmTC_322ea.dir/src.c.o.d -o CMakeFiles/cmTC_322ea.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_322ea.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_322ea.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  @CMakeFiles/cmTC_322ea.dir/objects1.rsp -o cmTC_322ea.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wdoublepromotion succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_183f8/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_183f8.dir/build.make CMakeFiles/cmTC_183f8.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_183f8.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma    -Wdouble-promotion -MD -MT CMakeFiles/cmTC_183f8.dir/src.c.o -MF CMakeFiles/cmTC_183f8.dir/src.c.o.d -o CMakeFiles/cmTC_183f8.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_183f8.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_183f8.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma  @CMakeFiles/cmTC_183f8.dir/objects1.rsp -o cmTC_183f8.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14911/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_14911.dir/build.make CMakeFiles/cmTC_14911.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14911.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma    -Wdouble-promotion -MD -MT CMakeFiles/cmTC_14911.dir/src.c.o -MF CMakeFiles/cmTC_14911.dir/src.c.o.d -o CMakeFiles/cmTC_14911.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_14911.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14911.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma  @CMakeFiles/cmTC_14911.dir/objects1.rsp -o cmTC_14911.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wparentheses succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d004/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_9d004.dir/build.make CMakeFiles/cmTC_9d004.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d004.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion    -Wparentheses -MD -MT CMakeFiles/cmTC_9d004.dir/src.c.o -MF CMakeFiles/cmTC_9d004.dir/src.c.o.d -o CMakeFiles/cmTC_9d004.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_9d004.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d004.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion  @CMakeFiles/cmTC_9d004.dir/objects1.rsp -o cmTC_9d004.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d406/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_9d406.dir/build.make CMakeFiles/cmTC_9d406.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d406.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion    -Wparentheses -MD -MT CMakeFiles/cmTC_9d406.dir/src.c.o -MF CMakeFiles/cmTC_9d406.dir/src.c.o.d -o CMakeFiles/cmTC_9d406.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9d406.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d406.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion  @CMakeFiles/cmTC_9d406.dir/objects1.rsp -o cmTC_9d406.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformatoverflow succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f9d6/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_2f9d6.dir/build.make CMakeFiles/cmTC_2f9d6.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2f9d6.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wformatoverflow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses    -Wformat-overflow -MD -MT CMakeFiles/cmTC_2f9d6.dir/src.c.o -MF CMakeFiles/cmTC_2f9d6.dir/src.c.o.d -o CMakeFiles/cmTC_2f9d6.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_2f9d6.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9d6.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses  @CMakeFiles/cmTC_2f9d6.dir/objects1.rsp -o cmTC_2f9d6.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8c14/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f8c14.dir/build.make CMakeFiles/cmTC_f8c14.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8c14.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wformatoverflow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses    -Wformat-overflow -MD -MT CMakeFiles/cmTC_f8c14.dir/src.c.o -MF CMakeFiles/cmTC_f8c14.dir/src.c.o.d -o CMakeFiles/cmTC_f8c14.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f8c14.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8c14.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses  @CMakeFiles/cmTC_f8c14.dir/objects1.rsp -o cmTC_f8c14.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wunusedmacros succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94577/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_94577.dir/build.make CMakeFiles/cmTC_94577.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94577.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow    -Wunused-macros -MD -MT CMakeFiles/cmTC_94577.dir/src.c.o -MF CMakeFiles/cmTC_94577.dir/src.c.o.d -o CMakeFiles/cmTC_94577.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_94577.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94577.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow  @CMakeFiles/cmTC_94577.dir/objects1.rsp -o cmTC_94577.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04f63/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_04f63.dir/build.make CMakeFiles/cmTC_04f63.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04f63.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow    -Wunused-macros -MD -MT CMakeFiles/cmTC_04f63.dir/src.c.o -MF CMakeFiles/cmTC_04f63.dir/src.c.o.d -o CMakeFiles/cmTC_04f63.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04f63.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04f63.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow  @CMakeFiles/cmTC_04f63.dir/objects1.rsp -o cmTC_04f63.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e29b1/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_e29b1.dir/build.make CMakeFiles/cmTC_e29b1.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e29b1.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -MD -MT CMakeFiles/cmTC_e29b1.dir/src.c.o -MF CMakeFiles/cmTC_e29b1.dir/src.c.o.d -o CMakeFiles/cmTC_e29b1.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_e29b1.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29b1.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros  @CMakeFiles/cmTC_e29b1.dir/objects1.rsp -o cmTC_e29b1.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b533/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1b533.dir/build.make CMakeFiles/cmTC_1b533.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b533.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -MD -MT CMakeFiles/cmTC_1b533.dir/src.c.o -MF CMakeFiles/cmTC_1b533.dir/src.c.o.d -o CMakeFiles/cmTC_1b533.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1b533.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b533.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros  @CMakeFiles/cmTC_1b533.dir/objects1.rsp -o cmTC_1b533.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bed5/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_9bed5.dir/build.make CMakeFiles/cmTC_9bed5.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9bed5.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations    -Wused-but-marked-unused -MD -MT CMakeFiles/cmTC_9bed5.dir/src.c.o -MF CMakeFiles/cmTC_9bed5.dir/src.c.o.d -o CMakeFiles/cmTC_9bed5.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_9bed5.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bed5.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations  @CMakeFiles/cmTC_9bed5.dir/objects1.rsp -o cmTC_9bed5.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6ad4/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f6ad4.dir/build.make CMakeFiles/cmTC_f6ad4.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6ad4.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations    -Wused-but-marked-unused -MD -MT CMakeFiles/cmTC_f6ad4.dir/src.c.o -MF CMakeFiles/cmTC_f6ad4.dir/src.c.o.d -o CMakeFiles/cmTC_f6ad4.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f6ad4.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6ad4.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations  @CMakeFiles/cmTC_f6ad4.dir/objects1.rsp -o cmTC_f6ad4.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchenum succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_685ce/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_685ce.dir/build.make CMakeFiles/cmTC_685ce.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_685ce.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused    -Wswitch-enum -MD -MT CMakeFiles/cmTC_685ce.dir/src.c.o -MF CMakeFiles/cmTC_685ce.dir/src.c.o.d -o CMakeFiles/cmTC_685ce.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_685ce.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_685ce.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused  @CMakeFiles/cmTC_685ce.dir/objects1.rsp -o cmTC_685ce.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_722d8/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_722d8.dir/build.make CMakeFiles/cmTC_722d8.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_722d8.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused    -Wswitch-enum -MD -MT CMakeFiles/cmTC_722d8.dir/src.c.o -MF CMakeFiles/cmTC_722d8.dir/src.c.o.d -o CMakeFiles/cmTC_722d8.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_722d8.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_722d8.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused  @CMakeFiles/cmTC_722d8.dir/objects1.rsp -o cmTC_722d8.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test FLAG_SUPPORTED_fvisibilityhidden succeeded with the following output:
-Change Dir: /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp
+Change Dir: /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20dca/fast && gmake[1]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_20dca.dir/build.make CMakeFiles/cmTC_20dca.dir/build
-gmake[2]: Entering directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20dca.dir/src.c.o
-/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused -Wswitch-enum    -fvisibility=hidden -MD -MT CMakeFiles/cmTC_20dca.dir/src.c.o -MF CMakeFiles/cmTC_20dca.dir/src.c.o.d -o CMakeFiles/cmTC_20dca.dir/src.c.o -c /home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_20dca.js
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20dca.dir/link.txt --verbose=1
-/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused -Wswitch-enum  @CMakeFiles/cmTC_20dca.dir/objects1.rsp -o cmTC_20dca.js 
-gmake[2]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory '/home/fyang151/cdiff/build_wasm/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_404be/fast && gmake[1]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_404be.dir/build.make CMakeFiles/cmTC_404be.dir/build
+gmake[2]: Entering directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_404be.dir/src.c.o
+/home/fyang151/emsdk/upstream/emscripten/emcc -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused -Wswitch-enum    -fvisibility=hidden -MD -MT CMakeFiles/cmTC_404be.dir/src.c.o -MF CMakeFiles/cmTC_404be.dir/src.c.o.d -o CMakeFiles/cmTC_404be.dir/src.c.o -c /home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_404be.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_404be.dir/link.txt --verbose=1
+/home/fyang151/emsdk/upstream/emscripten/emcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wused-but-marked-unused -Wswitch-enum  @CMakeFiles/cmTC_404be.dir/objects1.rsp -o cmTC_404be.js 
+gmake[2]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/fyang151/frediff/build_wasm/CMakeFiles/CMakeTmp'
 
 
 Source file was:

@@ -1,4 +1,4 @@
-CMakeFiles/diff_wasm.dir/src/ses.c.o: /home/fyang151/cdiff/src/ses.c \
+CMakeFiles/diff_wasm.dir/src/ses.c.o: /home/fyang151/frediff/src/ses.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/stddef.h \
@@ -18,5 +18,5 @@ CMakeFiles/diff_wasm.dir/src/ses.c.o: /home/fyang151/cdiff/src/ses.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
-  /home/fyang151/cdiff/vendor/cjson/cJSON.h \
-  /home/fyang151/cdiff/src/find_middle.h
+  /home/fyang151/frediff/vendor/cjson/cJSON.h \
+  /home/fyang151/frediff/src/find_middle.h

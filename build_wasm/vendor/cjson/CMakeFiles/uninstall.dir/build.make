@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyang151/cdiff
+CMAKE_SOURCE_DIR = /home/fyang151/frediff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyang151/cdiff/build_wasm
+CMAKE_BINARY_DIR = /home/fyang151/frediff/build_wasm
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include vendor/cjson/CMakeFiles/uninstall.dir/compiler_depend.make
 include vendor/cjson/CMakeFiles/uninstall.dir/progress.make
 
 vendor/cjson/CMakeFiles/uninstall:
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson && /usr/bin/cmake -P /home/fyang151/cdiff/vendor/cjson/library_config/uninstall.cmake
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson && /usr/bin/cmake -P /home/fyang151/frediff/vendor/cjson/library_config/uninstall.cmake
 
 uninstall: vendor/cjson/CMakeFiles/uninstall
 uninstall: vendor/cjson/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ vendor/cjson/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : vendor/cjson/CMakeFiles/uninstall.dir/build
 
 vendor/cjson/CMakeFiles/uninstall.dir/clean:
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : vendor/cjson/CMakeFiles/uninstall.dir/clean
 
 vendor/cjson/CMakeFiles/uninstall.dir/depend:
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/cdiff /home/fyang151/cdiff/vendor/cjson /home/fyang151/cdiff/build_wasm /home/fyang151/cdiff/build_wasm/vendor/cjson /home/fyang151/cdiff/build_wasm/vendor/cjson/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/frediff /home/fyang151/frediff/vendor/cjson /home/fyang151/frediff/build_wasm /home/fyang151/frediff/build_wasm/vendor/cjson /home/fyang151/frediff/build_wasm/vendor/cjson/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vendor/cjson/CMakeFiles/uninstall.dir/depend
 

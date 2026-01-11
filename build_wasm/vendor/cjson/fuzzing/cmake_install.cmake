@@ -1,4 +1,4 @@
-# Install script for directory: /home/fyang151/cdiff/vendor/cjson/fuzzing
+# Install script for directory: /home/fyang151/frediff/vendor/cjson/fuzzing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

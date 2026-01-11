@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyang151/cdiff
+CMAKE_SOURCE_DIR = /home/fyang151/frediff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyang151/cdiff/build_wasm
+CMAKE_BINARY_DIR = /home/fyang151/frediff/build_wasm
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -E cmake_progress_start /home/fyang151/cdiff/build_wasm/CMakeFiles /home/fyang151/cdiff/build_wasm/vendor/cjson//CMakeFiles/progress.marks
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyang151/cdiff/build_wasm/CMakeFiles 0
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -E cmake_progress_start /home/fyang151/frediff/build_wasm/CMakeFiles /home/fyang151/frediff/build_wasm/vendor/cjson//CMakeFiles/progress.marks
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyang151/frediff/build_wasm/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/clean
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/preinstall
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/preinstall
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vendor/cjson/CMakeFiles/cjson.dir/rule:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/cjson.dir/rule
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/cjson.dir/rule
 .PHONY : vendor/cjson/CMakeFiles/cjson.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ cjson: vendor/cjson/CMakeFiles/cjson.dir/rule
 
 # fast build rule for target.
 cjson/fast:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/build
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/build
 .PHONY : cjson/fast
 
 # Convenience name for target.
 vendor/cjson/CMakeFiles/cJSON_test.dir/rule:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/cJSON_test.dir/rule
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/cJSON_test.dir/rule
 .PHONY : vendor/cjson/CMakeFiles/cJSON_test.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ cJSON_test: vendor/cjson/CMakeFiles/cJSON_test.dir/rule
 
 # fast build rule for target.
 cJSON_test/fast:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/build
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/build
 .PHONY : cJSON_test/fast
 
 # Convenience name for target.
 vendor/cjson/CMakeFiles/check.dir/rule:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/check.dir/rule
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/check.dir/rule
 .PHONY : vendor/cjson/CMakeFiles/check.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ check: vendor/cjson/CMakeFiles/check.dir/rule
 
 # fast build rule for target.
 check/fast:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/check.dir/build.make vendor/cjson/CMakeFiles/check.dir/build
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/check.dir/build.make vendor/cjson/CMakeFiles/check.dir/build
 .PHONY : check/fast
 
 # Convenience name for target.
 vendor/cjson/CMakeFiles/uninstall.dir/rule:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/uninstall.dir/rule
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/cjson/CMakeFiles/uninstall.dir/rule
 .PHONY : vendor/cjson/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ uninstall: vendor/cjson/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/uninstall.dir/build.make vendor/cjson/CMakeFiles/uninstall.dir/build
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/uninstall.dir/build.make vendor/cjson/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 cJSON.o: cJSON.c.o
@@ -222,7 +222,7 @@ cJSON.o: cJSON.c.o
 
 # target to build an object file
 cJSON.c.o:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.o
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.o
 .PHONY : cJSON.c.o
 
 cJSON.i: cJSON.c.i
@@ -230,7 +230,7 @@ cJSON.i: cJSON.c.i
 
 # target to preprocess a source file
 cJSON.c.i:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.i
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.i
 .PHONY : cJSON.c.i
 
 cJSON.s: cJSON.c.s
@@ -238,7 +238,7 @@ cJSON.s: cJSON.c.s
 
 # target to generate assembly for a file
 cJSON.c.s:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.s
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cjson.dir/build.make vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.s
 .PHONY : cJSON.c.s
 
 test.o: test.c.o
@@ -246,7 +246,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.o
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.o
 .PHONY : test.c.o
 
 test.i: test.c.i
@@ -254,7 +254,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.i
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.i
 .PHONY : test.c.i
 
 test.s: test.c.s
@@ -262,7 +262,7 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
-	cd /home/fyang151/cdiff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.s
+	cd /home/fyang151/frediff/build_wasm && $(MAKE) $(MAKESILENT) -f vendor/cjson/CMakeFiles/cJSON_test.dir/build.make vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.s
 .PHONY : test.c.s
 
 # Help Target
@@ -298,6 +298,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

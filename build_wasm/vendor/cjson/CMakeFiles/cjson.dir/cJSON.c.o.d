@@ -1,5 +1,5 @@
 vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.o: \
-  /home/fyang151/cdiff/vendor/cjson/cJSON.c \
+  /home/fyang151/frediff/vendor/cjson/cJSON.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
@@ -29,4 +29,4 @@ vendor/cjson/CMakeFiles/cjson.dir/cJSON.c.o: \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__float_header_macro.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__float_float.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/locale.h \
-  /home/fyang151/cdiff/vendor/cjson/cJSON.h
+  /home/fyang151/frediff/vendor/cjson/cJSON.h

@@ -1,5 +1,5 @@
 vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/fuzz_main.c.o: \
-  /home/fyang151/cdiff/vendor/cjson/fuzzing/fuzz_main.c \
+  /home/fyang151/frediff/vendor/cjson/fuzzing/fuzz_main.c \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/stdint.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \

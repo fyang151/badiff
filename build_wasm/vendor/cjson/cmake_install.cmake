@@ -1,4 +1,4 @@
-# Install script for directory: /home/fyang151/cdiff/vendor/cjson
+# Install script for directory: /home/fyang151/frediff/vendor/cjson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/cjson" TYPE FILE FILES "/home/fyang151/cdiff/vendor/cjson/cJSON.h")
+  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/cjson" TYPE FILE FILES "/home/fyang151/frediff/vendor/cjson/cJSON.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig" TYPE FILE FILES "/home/fyang151/cdiff/build_wasm/vendor/cjson/libcjson.pc")
+  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig" TYPE FILE FILES "/home/fyang151/frediff/build_wasm/vendor/cjson/libcjson.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,14 +70,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib" TYPE STATIC_LIBRARY FILES "/home/fyang151/cdiff/build_wasm/vendor/cjson/libcjson.a")
+  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib" TYPE STATIC_LIBRARY FILES "/home/fyang151/frediff/build_wasm/vendor/cjson/libcjson.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson.cmake"
-         "/home/fyang151/cdiff/build_wasm/vendor/cjson/CMakeFiles/Export/_home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson.cmake")
+         "/home/fyang151/frediff/build_wasm/vendor/cjson/CMakeFiles/Export/_home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON" TYPE FILE FILES "/home/fyang151/cdiff/build_wasm/vendor/cjson/CMakeFiles/Export/_home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson.cmake")
+  file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON" TYPE FILE FILES "/home/fyang151/frediff/build_wasm/vendor/cjson/CMakeFiles/Export/_home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson-noconfig.cmake")
@@ -104,7 +104,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-    file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON" TYPE FILE FILES "/home/fyang151/cdiff/build_wasm/vendor/cjson/CMakeFiles/Export/_home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson-noconfig.cmake")
+    file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON" TYPE FILE FILES "/home/fyang151/frediff/build_wasm/vendor/cjson/CMakeFiles/Export/_home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON/cjson-noconfig.cmake")
   endif()
 endif()
 
@@ -118,15 +118,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/home/fyang151/emsdk/upstream/emscripten/cache/sysroot/lib/cmake/cJSON" TYPE FILE FILES
-    "/home/fyang151/cdiff/build_wasm/vendor/cjson/cJSONConfig.cmake"
-    "/home/fyang151/cdiff/build_wasm/vendor/cjson/cJSONConfigVersion.cmake"
+    "/home/fyang151/frediff/build_wasm/vendor/cjson/cJSONConfig.cmake"
+    "/home/fyang151/frediff/build_wasm/vendor/cjson/cJSONConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fyang151/cdiff/build_wasm/vendor/cjson/tests/cmake_install.cmake")
-  include("/home/fyang151/cdiff/build_wasm/vendor/cjson/fuzzing/cmake_install.cmake")
+  include("/home/fyang151/frediff/build_wasm/vendor/cjson/tests/cmake_install.cmake")
+  include("/home/fyang151/frediff/build_wasm/vendor/cjson/fuzzing/cmake_install.cmake")
 
 endif()
 

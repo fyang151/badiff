@@ -1,8 +1,8 @@
 vendor/cjson/tests/CMakeFiles/unity.dir/unity/src/unity.c.o: \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity.c \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity_internals.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/../examples/unity_config.h \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/unity.c \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/unity.h \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/unity_internals.h \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/../examples/unity_config.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/setjmp.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/setjmp.h \

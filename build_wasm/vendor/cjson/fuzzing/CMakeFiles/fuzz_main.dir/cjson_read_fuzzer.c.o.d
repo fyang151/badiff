@@ -1,5 +1,5 @@
 vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o: \
-  /home/fyang151/cdiff/vendor/cjson/fuzzing/cjson_read_fuzzer.c \
+  /home/fyang151/frediff/vendor/cjson/fuzzing/cjson_read_fuzzer.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
@@ -9,7 +9,7 @@ vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o: \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
-  /home/fyang151/cdiff/vendor/cjson/fuzzing/../cJSON.h \
+  /home/fyang151/frediff/vendor/cjson/fuzzing/../cJSON.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/stddef.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_header_macro.h \

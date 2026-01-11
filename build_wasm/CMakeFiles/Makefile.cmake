@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/fyang151/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
@@ -16,7 +17,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../vendor/cjson/library_config/cJSONConfigVersion.cmake.in"
   "../vendor/cjson/library_config/libcjson.pc.in"
   "../vendor/cjson/tests/CMakeLists.txt"
-  "/home/fyang151/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

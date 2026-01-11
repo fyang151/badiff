@@ -1,10 +1,10 @@
 CMakeFiles/diff_wasm.dir/src/find_middle.c.o: \
-  /home/fyang151/cdiff/src/find_middle.c \
+  /home/fyang151/frediff/src/find_middle.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
-  /home/fyang151/cdiff/src/find_middle.h \
+  /home/fyang151/frediff/src/find_middle.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/stddef.h \

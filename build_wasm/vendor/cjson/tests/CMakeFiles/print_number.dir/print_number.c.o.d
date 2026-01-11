@@ -1,9 +1,9 @@
 vendor/cjson/tests/CMakeFiles/print_number.dir/print_number.c.o: \
-  /home/fyang151/cdiff/vendor/cjson/tests/print_number.c \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/examples/unity_config.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/unity_internals.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/unity/src/../examples/unity_config.h \
+  /home/fyang151/frediff/vendor/cjson/tests/print_number.c \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/examples/unity_config.h \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/unity.h \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/unity_internals.h \
+  /home/fyang151/frediff/vendor/cjson/tests/unity/src/../examples/unity_config.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/setjmp.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/bits/setjmp.h \
@@ -25,8 +25,8 @@ vendor/cjson/tests/CMakeFiles/print_number.dir/print_number.c.o: \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_wchar_t.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_null.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__stddef_offsetof.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/common.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/../cJSON.c \
+  /home/fyang151/frediff/vendor/cjson/tests/common.h \
+  /home/fyang151/frediff/vendor/cjson/tests/../cJSON.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
@@ -37,4 +37,4 @@ vendor/cjson/tests/CMakeFiles/print_number.dir/print_number.c.o: \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__float_header_macro.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/__float_float.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/locale.h \
-  /home/fyang151/cdiff/vendor/cjson/tests/../cJSON.h
+  /home/fyang151/frediff/vendor/cjson/tests/../cJSON.h

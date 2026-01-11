@@ -1,5 +1,5 @@
 vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.o: \
-  /home/fyang151/cdiff/vendor/cjson/test.c \
+  /home/fyang151/frediff/vendor/cjson/test.c \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/fyang151/emsdk/upstream/lib/clang/22/include/stddef.h \
@@ -19,4 +19,4 @@ vendor/cjson/CMakeFiles/cJSON_test.dir/test.c.o: \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/fyang151/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
-  /home/fyang151/cdiff/vendor/cjson/cJSON.h
+  /home/fyang151/frediff/vendor/cjson/cJSON.h

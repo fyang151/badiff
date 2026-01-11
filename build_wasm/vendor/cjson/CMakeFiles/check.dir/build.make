@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyang151/cdiff
+CMAKE_SOURCE_DIR = /home/fyang151/frediff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyang151/cdiff/build_wasm
+CMAKE_BINARY_DIR = /home/fyang151/frediff/build_wasm
 
 # Utility rule file for check.
 
@@ -67,7 +67,7 @@ include vendor/cjson/CMakeFiles/check.dir/compiler_depend.make
 include vendor/cjson/CMakeFiles/check.dir/progress.make
 
 vendor/cjson/CMakeFiles/check: vendor/cjson/cJSON_test.js
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson && /usr/bin/ctest --output-on-failure
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson && /usr/bin/ctest --output-on-failure
 
 check: vendor/cjson/CMakeFiles/check
 check: vendor/cjson/CMakeFiles/check.dir/build.make
@@ -78,10 +78,10 @@ vendor/cjson/CMakeFiles/check.dir/build: check
 .PHONY : vendor/cjson/CMakeFiles/check.dir/build
 
 vendor/cjson/CMakeFiles/check.dir/clean:
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : vendor/cjson/CMakeFiles/check.dir/clean
 
 vendor/cjson/CMakeFiles/check.dir/depend:
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/cdiff /home/fyang151/cdiff/vendor/cjson /home/fyang151/cdiff/build_wasm /home/fyang151/cdiff/build_wasm/vendor/cjson /home/fyang151/cdiff/build_wasm/vendor/cjson/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/frediff /home/fyang151/frediff/vendor/cjson /home/fyang151/frediff/build_wasm /home/fyang151/frediff/build_wasm/vendor/cjson /home/fyang151/frediff/build_wasm/vendor/cjson/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vendor/cjson/CMakeFiles/check.dir/depend
 

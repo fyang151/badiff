@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fyang151/cdiff/vendor/cjson/fuzzing/cjson_read_fuzzer.c" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o" "gcc" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o.d"
-  "/home/fyang151/cdiff/vendor/cjson/fuzzing/fuzz_main.c" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/fuzz_main.c.o" "gcc" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/fuzz_main.c.o.d"
+  "/home/fyang151/frediff/vendor/cjson/fuzzing/cjson_read_fuzzer.c" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o" "gcc" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o.d"
+  "/home/fyang151/frediff/vendor/cjson/fuzzing/fuzz_main.c" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/fuzz_main.c.o" "gcc" "vendor/cjson/fuzzing/CMakeFiles/fuzz_main.dir/fuzz_main.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fyang151/cdiff/build_wasm/vendor/cjson/CMakeFiles/cjson.dir/DependInfo.cmake"
+  "/home/fyang151/frediff/build_wasm/vendor/cjson/CMakeFiles/cjson.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

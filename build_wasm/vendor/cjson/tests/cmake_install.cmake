@@ -1,4 +1,4 @@
-# Install script for directory: /home/fyang151/cdiff/vendor/cjson/tests
+# Install script for directory: /home/fyang151/frediff/vendor/cjson/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

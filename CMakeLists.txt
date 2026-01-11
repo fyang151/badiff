@@ -38,6 +38,7 @@ if(EMSCRIPTEN)
     target_link_options(diff_wasm PRIVATE
         "-sMODULARIZE=1"
         "-sEXPORT_ES6=1"
+        "-sENVIRONMENT=web"
         "-sEXPORTED_FUNCTIONS=['_diff','_malloc','_free']"
         "-sEXPORTED_RUNTIME_METHODS=['UTF8ToString','stringToUTF8','lengthBytesUTF8']"
     )

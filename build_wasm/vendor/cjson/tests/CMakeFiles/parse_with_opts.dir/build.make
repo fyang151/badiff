@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyang151/cdiff
+CMAKE_SOURCE_DIR = /home/fyang151/frediff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyang151/cdiff/build_wasm
+CMAKE_BINARY_DIR = /home/fyang151/frediff/build_wasm
 
 # Include any dependencies generated for this target.
 include vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/depend.make
@@ -72,16 +72,16 @@ include vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/flags.make
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o: vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/flags.make
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o: ../vendor/cjson/tests/parse_with_opts.c
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o: vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/cdiff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o"
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson/tests && /home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o -MF CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o.d -o CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o -c /home/fyang151/cdiff/vendor/cjson/tests/parse_with_opts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/frediff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o"
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson/tests && /home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o -MF CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o.d -o CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o -c /home/fyang151/frediff/vendor/cjson/tests/parse_with_opts.c
 
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/parse_with_opts.dir/parse_with_opts.c.i"
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson/tests && /home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/cdiff/vendor/cjson/tests/parse_with_opts.c > CMakeFiles/parse_with_opts.dir/parse_with_opts.c.i
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson/tests && /home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/frediff/vendor/cjson/tests/parse_with_opts.c > CMakeFiles/parse_with_opts.dir/parse_with_opts.c.i
 
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/parse_with_opts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/parse_with_opts.dir/parse_with_opts.c.s"
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson/tests && /home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/cdiff/vendor/cjson/tests/parse_with_opts.c -o CMakeFiles/parse_with_opts.dir/parse_with_opts.c.s
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson/tests && /home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/frediff/vendor/cjson/tests/parse_with_opts.c -o CMakeFiles/parse_with_opts.dir/parse_with_opts.c.s
 
 # Object files for target parse_with_opts
 parse_with_opts_OBJECTS = \
@@ -97,18 +97,18 @@ vendor/cjson/tests/parse_with_opts.js: vendor/cjson/tests/libunity.a
 vendor/cjson/tests/parse_with_opts.js: vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/linklibs.rsp
 vendor/cjson/tests/parse_with_opts.js: vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/objects1.rsp
 vendor/cjson/tests/parse_with_opts.js: vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyang151/cdiff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable parse_with_opts.js"
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parse_with_opts.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyang151/frediff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable parse_with_opts.js"
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parse_with_opts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/build: vendor/cjson/tests/parse_with_opts.js
 .PHONY : vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/build
 
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/clean:
-	cd /home/fyang151/cdiff/build_wasm/vendor/cjson/tests && $(CMAKE_COMMAND) -P CMakeFiles/parse_with_opts.dir/cmake_clean.cmake
+	cd /home/fyang151/frediff/build_wasm/vendor/cjson/tests && $(CMAKE_COMMAND) -P CMakeFiles/parse_with_opts.dir/cmake_clean.cmake
 .PHONY : vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/clean
 
 vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/depend:
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/cdiff /home/fyang151/cdiff/vendor/cjson/tests /home/fyang151/cdiff/build_wasm /home/fyang151/cdiff/build_wasm/vendor/cjson/tests /home/fyang151/cdiff/build_wasm/vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/frediff /home/fyang151/frediff/vendor/cjson/tests /home/fyang151/frediff/build_wasm /home/fyang151/frediff/build_wasm/vendor/cjson/tests /home/fyang151/frediff/build_wasm/vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vendor/cjson/tests/CMakeFiles/parse_with_opts.dir/depend
 

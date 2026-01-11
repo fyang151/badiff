@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyang151/cdiff
+CMAKE_SOURCE_DIR = /home/fyang151/frediff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyang151/cdiff/build_wasm
+CMAKE_BINARY_DIR = /home/fyang151/frediff/build_wasm
 
 # Include any dependencies generated for this target.
 include CMakeFiles/diff_wasm.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/diff_wasm.dir/src/diff.c.o: CMakeFiles/diff_wasm.dir/flags.make
 CMakeFiles/diff_wasm.dir/src/diff.c.o: CMakeFiles/diff_wasm.dir/includes_C.rsp
 CMakeFiles/diff_wasm.dir/src/diff.c.o: ../src/diff.c
 CMakeFiles/diff_wasm.dir/src/diff.c.o: CMakeFiles/diff_wasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/cdiff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/diff_wasm.dir/src/diff.c.o"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/diff_wasm.dir/src/diff.c.o -MF CMakeFiles/diff_wasm.dir/src/diff.c.o.d -o CMakeFiles/diff_wasm.dir/src/diff.c.o -c /home/fyang151/cdiff/src/diff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/frediff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/diff_wasm.dir/src/diff.c.o"
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/diff_wasm.dir/src/diff.c.o -MF CMakeFiles/diff_wasm.dir/src/diff.c.o.d -o CMakeFiles/diff_wasm.dir/src/diff.c.o -c /home/fyang151/frediff/src/diff.c
 
 CMakeFiles/diff_wasm.dir/src/diff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/diff_wasm.dir/src/diff.c.i"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/cdiff/src/diff.c > CMakeFiles/diff_wasm.dir/src/diff.c.i
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/frediff/src/diff.c > CMakeFiles/diff_wasm.dir/src/diff.c.i
 
 CMakeFiles/diff_wasm.dir/src/diff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/diff_wasm.dir/src/diff.c.s"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/cdiff/src/diff.c -o CMakeFiles/diff_wasm.dir/src/diff.c.s
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/frediff/src/diff.c -o CMakeFiles/diff_wasm.dir/src/diff.c.s
 
 CMakeFiles/diff_wasm.dir/src/ses.c.o: CMakeFiles/diff_wasm.dir/flags.make
 CMakeFiles/diff_wasm.dir/src/ses.c.o: CMakeFiles/diff_wasm.dir/includes_C.rsp
 CMakeFiles/diff_wasm.dir/src/ses.c.o: ../src/ses.c
 CMakeFiles/diff_wasm.dir/src/ses.c.o: CMakeFiles/diff_wasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/cdiff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/diff_wasm.dir/src/ses.c.o"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/diff_wasm.dir/src/ses.c.o -MF CMakeFiles/diff_wasm.dir/src/ses.c.o.d -o CMakeFiles/diff_wasm.dir/src/ses.c.o -c /home/fyang151/cdiff/src/ses.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/frediff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/diff_wasm.dir/src/ses.c.o"
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/diff_wasm.dir/src/ses.c.o -MF CMakeFiles/diff_wasm.dir/src/ses.c.o.d -o CMakeFiles/diff_wasm.dir/src/ses.c.o -c /home/fyang151/frediff/src/ses.c
 
 CMakeFiles/diff_wasm.dir/src/ses.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/diff_wasm.dir/src/ses.c.i"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/cdiff/src/ses.c > CMakeFiles/diff_wasm.dir/src/ses.c.i
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/frediff/src/ses.c > CMakeFiles/diff_wasm.dir/src/ses.c.i
 
 CMakeFiles/diff_wasm.dir/src/ses.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/diff_wasm.dir/src/ses.c.s"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/cdiff/src/ses.c -o CMakeFiles/diff_wasm.dir/src/ses.c.s
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/frediff/src/ses.c -o CMakeFiles/diff_wasm.dir/src/ses.c.s
 
 CMakeFiles/diff_wasm.dir/src/find_middle.c.o: CMakeFiles/diff_wasm.dir/flags.make
 CMakeFiles/diff_wasm.dir/src/find_middle.c.o: CMakeFiles/diff_wasm.dir/includes_C.rsp
 CMakeFiles/diff_wasm.dir/src/find_middle.c.o: ../src/find_middle.c
 CMakeFiles/diff_wasm.dir/src/find_middle.c.o: CMakeFiles/diff_wasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/cdiff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/diff_wasm.dir/src/find_middle.c.o"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/diff_wasm.dir/src/find_middle.c.o -MF CMakeFiles/diff_wasm.dir/src/find_middle.c.o.d -o CMakeFiles/diff_wasm.dir/src/find_middle.c.o -c /home/fyang151/cdiff/src/find_middle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyang151/frediff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/diff_wasm.dir/src/find_middle.c.o"
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/diff_wasm.dir/src/find_middle.c.o -MF CMakeFiles/diff_wasm.dir/src/find_middle.c.o.d -o CMakeFiles/diff_wasm.dir/src/find_middle.c.o -c /home/fyang151/frediff/src/find_middle.c
 
 CMakeFiles/diff_wasm.dir/src/find_middle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/diff_wasm.dir/src/find_middle.c.i"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/cdiff/src/find_middle.c > CMakeFiles/diff_wasm.dir/src/find_middle.c.i
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fyang151/frediff/src/find_middle.c > CMakeFiles/diff_wasm.dir/src/find_middle.c.i
 
 CMakeFiles/diff_wasm.dir/src/find_middle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/diff_wasm.dir/src/find_middle.c.s"
-	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/cdiff/src/find_middle.c -o CMakeFiles/diff_wasm.dir/src/find_middle.c.s
+	/home/fyang151/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fyang151/frediff/src/find_middle.c -o CMakeFiles/diff_wasm.dir/src/find_middle.c.s
 
 # Object files for target diff_wasm
 diff_wasm_OBJECTS = \
@@ -131,7 +131,7 @@ diff.js: vendor/cjson/libcjson.a
 diff.js: CMakeFiles/diff_wasm.dir/linklibs.rsp
 diff.js: CMakeFiles/diff_wasm.dir/objects1.rsp
 diff.js: CMakeFiles/diff_wasm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyang151/cdiff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable diff.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyang151/frediff/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable diff.js"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diff_wasm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/diff_wasm.dir/clean:
 .PHONY : CMakeFiles/diff_wasm.dir/clean
 
 CMakeFiles/diff_wasm.dir/depend:
-	cd /home/fyang151/cdiff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/cdiff /home/fyang151/cdiff /home/fyang151/cdiff/build_wasm /home/fyang151/cdiff/build_wasm /home/fyang151/cdiff/build_wasm/CMakeFiles/diff_wasm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyang151/frediff/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyang151/frediff /home/fyang151/frediff /home/fyang151/frediff/build_wasm /home/fyang151/frediff/build_wasm /home/fyang151/frediff/build_wasm/CMakeFiles/diff_wasm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diff_wasm.dir/depend
 
