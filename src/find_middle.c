@@ -15,6 +15,7 @@ snake find_middle(const char *a_str, const char *b_str, int N_start,
   int MAX = (N - N_start) + (M - M_start);
   int delta_r = (N - N_start) - (M - M_start);
   int delta = N - M;
+  int offset = N_start - M_start;
 
   // u, v are x, y in reverse direction
   int x, y, u, v;
@@ -47,7 +48,7 @@ snake find_middle(const char *a_str, const char *b_str, int N_start,
         x = V[k_adj - 1] + 1;
       }
 
-      y = x - k;
+      y = x - k - offset;
 
       int start_x = x;
       int start_y = y;
