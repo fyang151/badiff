@@ -9,5 +9,5 @@ char *diff(const char *A, const char *B, int N, int M) {
   char *json = cJSON_PrintUnformatted(output);
 
   cJSON_Delete(output);
-  return json; // return heap-allocated string
+  return json;
 }
